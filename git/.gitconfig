@@ -1,0 +1,13 @@
+[core]
+	editor = vim
+[user]
+	name   = Brandon Alexander
+	email  = baalexander@gmail.com
+[alias]
+	graph  = log --graph --pretty=format:'%Cred%h%Creset -%C(bold blue)%d%Creset %C(yellow)%an%Creset %s %Cgreen(%cr)' --abbrev-commit --date=relative
+[color]
+	diff   = auto
+	status = auto
+	branch = auto
+[github]
+	user   = baalexander

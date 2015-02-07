@@ -1,13 +1,12 @@
 
-## vim Installation
+## vim installation
 
 #### Set Up Paths
 
-1. `git clone https://github.com/baalexander/vim.git vim`
-2. `ln -s /<full path>/dotfiles/vim/.vimrc ~/.vimrc`
-3. `mkdir -p /<full path>/dotfiles/vim/.vim/bundle`
-4. `ln -s /<full path>/dotfiles/vim/.vim ~/.vim`
-5. `mkdir ~/.vim_backup`
+1. `ln -s /<full path>/dotfiles/vim/.vimrc ~/.vimrc`
+2. `mkdir -p /<full path>/dotfiles/vim/.vim/bundle`
+3. `ln -s /<full path>/dotfiles/vim/.vim ~/.vim`
+4. `mkdir ~/.vim_backup`
 
 #### Install Plugins with Vundle
 
@@ -40,6 +39,9 @@
 
 1. `ln -s /<full path>/dotfiles/tmux/.tmux.conf ~/.tmux.conf`
 
+## gitconfig installation
+
+1. `ln -s /<full path>/dotfiles/git/.gitconfig ~/.gitconfig`
 
 ## License
 
