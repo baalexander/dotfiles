@@ -15,6 +15,7 @@ Plugin 'jistr/vim-nerdtree-tabs'
 Plugin 'jnurmine/Zenburn'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'scrooloose/nerdtree'
+Plugin 'leafgarland/typescript-vim'
 
 call vundle#end()            " required by Vundle
 filetype plugin indent on    " required by Vundle
@@ -34,8 +35,6 @@ set directory=~/.vim_backup " Where to store swap files
 
 
 " Text Formatting
-
-set autoindent     " Use indent from previous line
 set smarttab       " Smart handling of the tab key
 set expandtab      " Use spaces for tabs
 set shiftround     " Round indent to multiple of shiftwidth
@@ -43,10 +42,19 @@ set shiftwidth=2   " Number of spaces for each indent
 set softtabstop=2  " Number of spaces for tab key
 set tabstop=2      " Indention size of tabs
 set number         " Line numbers on
-set textwidth=80   " Column width
 set colorcolumn=+1 " Shows vertical line at textwidth + 1
 set nowrap         " Do not wrap lines
 set ruler          " Show column
+
+" Uncomment to use autoformatting
+" set autoindent     " Use indent from previous line
+set textwidth=80   " Column width
+
+" Uncomment to not use autoformatting
+set noautoindent
+" set textwidth=0   " Column width
+set wrapmargin=0   " Column width
+
 
 set formatoptions-=t  " Don't auto-wrap text
 set formatoptions+=corqn
