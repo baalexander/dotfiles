@@ -13,6 +13,12 @@
 1. `git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
 2. `vim +PluginInstall +qall`
 
+#### PEP8 checks
+
+For Syntastic to check for PEP8 errors, install flake8.
+
+1. `pip install flake8`
+
 #### Work with tmux
 
 1. Add `set -g default-terminal "screen-256color"` to ~/.tmux.conf to show

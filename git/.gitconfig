@@ -1,13 +1,19 @@
 [core]
 	editor = vim
 [user]
-	name   = Brandon Alexander
-	email  = baalexander@gmail.com
+	name = Brandon Alexander
+	email = baalexander@gmail.com
 [alias]
-	graph  = log --graph --pretty=format:'%Cred%h%Creset -%C(bold blue)%d%Creset %C(yellow)%an%Creset %s %Cgreen(%cr)' --abbrev-commit --date=relative
+	graph = log --graph --pretty=format:'%Cred%h%Creset -%C(bold blue)%d%Creset %C(yellow)%an%Creset %s %Cgreen(%cr)' --abbrev-commit --date=relative
 [color]
-	diff   = auto
+	diff = auto
 	status = auto
 	branch = auto
 [github]
-	user   = baalexander
+	user = baalexander
+[push]
+	default = simple
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	required = true
+	clean = git-lfs clean -- %f
