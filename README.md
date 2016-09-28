@@ -13,6 +13,15 @@
 1. `git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
 2. `vim +PluginInstall +qall`
 
+#### YouCompleteMe
+
+YouCompleteMe (a code engine for Vim) requires a compilation step.
+
+1. `cd ~/.vim/bundle/YouCompleteMe/`
+2. `./install.py  --clang-completer --tern-completer`
+
+Note that --tern-completer (for JS completion) requires Node.js to be installed.
+
 #### PEP8 checks
 
 For Syntastic to check for PEP8 errors, install flake8.
