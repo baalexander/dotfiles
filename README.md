@@ -1,6 +1,13 @@
 
 ## vim installation
 
+#### macOS prereqs
+
+1. `xcode-select --install`
+2. `brew install vim`  # Install version of vim with +clipboard support
+3. `brew install reattach-to-user-namespace` # copy/paste with tmux
+4. `brew install cmake` # Used by YouCompleteMe
+
 #### Set Up Paths
 
 1. `ln -s /<full path>/dotfiles/vim/.vimrc ~/.vimrc`

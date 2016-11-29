@@ -28,6 +28,7 @@ filetype plugin indent on    " required by Vundle
 set history=1000  " Size of command/search history
 set hidden        " Allow changing buffers without saving
 set spell         " Enables spell check
+set backspace=2   " Make backspace work like most programs
 
 
 " Backup
@@ -157,6 +158,11 @@ let g:syntastic_python_checkers=['flake8']
 let g:syntastic_python_flake8_args='--max-line-length=100 --ignore=E128,E302'
 " Allow :lnext and :lprev for navigating between Syntastic errors
 let g:syntastic_always_populate_loc_list=1
+
+" YouCompleteMe
+" Disable the [Scratch][Preview] window that shows function descriptions
+let g:ycm_autoclose_preview_window_after_completion = 1
+let g:ycm_autoclose_preview_window_after_insertion = 1
 
 " Colors
 syntax on           " Enable syntax highlighting

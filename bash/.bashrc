@@ -24,6 +24,8 @@ EDITOR=vim; export EDITOR
 # Aliases
 #-------------------------------------------------------------
 
+alias vi='vim'
+
 # Prevents accidentally clobbering files.
 alias rm='rm -i'
 alias cp='cp -i'
