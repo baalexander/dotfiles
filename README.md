@@ -52,7 +52,13 @@ For Syntastic to check for PEP8 errors, install flake8.
 #### Set Up Paths
 
 1. `ln -s /<full path>/dotfiles/bash/.bashrc ~/.bashrc`
-2. If on OS X, `ln -s /<full path>/dotfiles/bash/.bash_profile ~/.bash_profile`
+2. If on macOS, `ln -s /<full path>/dotfiles/bash/.bash_profile ~/.bash_profile`
+
+#### Enable Zenburn theme in terminal
+
+** On macOS **
+
+1. Follow instructions on https://github.com/bdesham/zenburn-terminal
 
 
 ## tmux installation

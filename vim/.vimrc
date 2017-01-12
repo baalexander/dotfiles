@@ -18,7 +18,8 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'scrooloose/syntastic'
 Plugin 'powerline/powerline'
-Plugin 'ashisha/image.vim'
+Plugin 'tpope/vim-fugitive'
+
 
 call vundle#end()            " required by Vundle
 filetype plugin indent on    " required by Vundle
